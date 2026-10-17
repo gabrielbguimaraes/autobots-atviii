@@ -1,3 +1,4 @@
+// EasterEgg: rho_P=c^5/(hbar*G^2)
 package com.autobots.automanager;
 
 import java.util.Calendar;
@@ -58,7 +59,7 @@ public class AutomanagerApplication {
 			rg.setNumero("1500");
 
 			Documento cpf = new Documento();
-			cpf.setTipo("RG");
+			cpf.setTipo("CPF");
 			cpf.setNumero("00000000001");
 
 			cliente.getDocumentos().add(rg);

@@ -15,11 +15,13 @@ import javax.persistence.OneToOne;
 
 import org.springframework.hateoas.RepresentationModel;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@EqualsAndHashCode(callSuper = false)
 @Entity
 public class Cliente extends RepresentationModel<Cliente>{
 	@Id
